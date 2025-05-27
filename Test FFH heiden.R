@@ -1,4 +1,3 @@
-######FFH Lebensraumtyp Trocken Heiden ###Lassen sich die Erfassungskriterien über den Erhaltungszustand der Calluna-Heide mittels Fernerkundungsmethoden praxistauglich beantworten?######
 
 ### kleines Subset#####
 ##1. Einladen der DOP und zusammefügen als eine gesamtbild####
@@ -19,7 +18,7 @@ library(fs)
 # Ordnerpfad mit deinen JP2-Dateien
 #ordner_pfad <- "C:/Pfad/zu/deinem/Ordner"
 #DOP_Senne<-("C:/Users/Asus/R/Forschungsprojekt Trocken Heiden/Luftbild DOP")
-DOP_Senne_Test <-rast("C:/Users/Asus/R/Forschungsprojekt Trocken Heiden/Luftbild DOP/dop10rgbi_32_483_5748_1_nw_2022.jp2")
+DOP_Senne_Test <-rast("C:/Users/Silas/Desktop/LOEK_Alle_Semester/Master/Fernerkundung/Praktikum/Folien/Github/Github_Einführung/Fernerkundung_M9_Master_Loek/dop10rgbi_32_483_5748_1_nw_2022.jp2")
 
 class(DOP_Senne_Test)
 
